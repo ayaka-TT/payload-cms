@@ -51,6 +51,13 @@ Type `cp .env.example .env` in your terminal to make a copy of the example `.env
 
 Typically, the only line that you'll need to change within your new `.env` for local development is the `MONGO_URL` value. If you have MongoDB running locally, then you can use the example connection string, but if you are using Mongo Atlas or similar, you'll want to fill this value in with your own connection string.
 
+Go to http://localhost:5432/
+login credential
+demo@payloadcms.com
+demo
+
+API sample: http://localhost:5432/api/blogs
+
 **Fire up the development server**
 
 Finally, type `yarn dev` to start up the server and see it in action!
